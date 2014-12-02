@@ -130,6 +130,15 @@ client.addListener('pm', function(nick, message) {
       }
       
       /**
+       * Emote Channel
+       */
+      if (com.command == 'emote') {
+        channel = com.params[0];
+        com.params.shift();
+        client.action(channel, com.params.join(" "));
+      }
+      
+      /**
        * Get All Settings for a chan
        */
       if (com.command == 'settings') {
