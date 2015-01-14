@@ -1,5 +1,5 @@
-Pastor Bot 2.0 - Beta
+Tyrone's botN, forked from PastorBot 2.0 Beta
 
 Deps: irc, underscore
 
-Spread the good news!
+Spread the cultural enrichment!
